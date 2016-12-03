@@ -1,0 +1,81 @@
+﻿<Window x:Class="DungeonRaider.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DungeonRaider"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <DropShadowEffect x:Key="ImageButtonDropShadowEffect" ShadowDepth="2" Color="Azure" Opacity="1"/>
+
+        <Style x:Key="ButtonIcon" TargetType="Image">
+            <Setter Property="Width" Value="64"/>
+            <Setter Property="Height" Value="64"/>
+        </Style>
+        
+        <Style x:Key="IconBorder" TargetType="Border">
+            <Setter Property="BorderBrush" Value="DarkGray"/>
+            <Setter Property="BorderThickness" Value="2"/>
+            <Setter Property="CornerRadius" Value="2"/>
+        </Style>
+
+        <Style x:Key="ImageButton" TargetType="Button">
+            <Setter Property="Width" Value="Auto"/>
+            <Setter Property="Height" Value="Auto"/>
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Style.Triggers>
+                <Trigger Property="Button.IsMouseOver" Value="True">
+                    <Setter Property="Button.Effect" Value="{StaticResource ImageButtonDropShadowEffect}"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20*"/>
+            <ColumnDefinition Width="80*"/>
+        </Grid.ColumnDefinitions>
+        
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Button Grid.Row="1" Grid.Column="1" Style="{StaticResource ImageButton}" Click="DungeonButton_Click">
+                <Border Style="{StaticResource IconBorder}">
+                    <Image Source="Images\MenuButtons\achievement_dungeon_ulduarraid_archway_01.jpg" Style="{StaticResource ButtonIcon}"/>
+                </Border>
+            </Button>
+
+            <Button Grid.Row="1" Grid.Column="2" Style="{StaticResource ImageButton}">
+                <Border Style="{StaticResource IconBorder}">
+                    <Image Source="Images\MenuButtons\inv_blacksmith_anvil.jpg" Style="{StaticResource ButtonIcon}"/>
+                </Border>
+            </Button>
+
+            <Button Grid.Row="2" Grid.Column="1" Style="{StaticResource ImageButton}">
+                <Border Style="{StaticResource IconBorder}">
+                    <Image Style="{StaticResource ButtonIcon}"/>
+                </Border>
+            </Button>
+
+            <Button Grid.Row="2" Grid.Column="2" Style="{StaticResource ImageButton}">
+                <Border Style="{StaticResource IconBorder}">
+                    <Image Style="{StaticResource ButtonIcon}"/>
+                </Border>
+            </Button>
+        </Grid>
+    </Grid>
+</Window>

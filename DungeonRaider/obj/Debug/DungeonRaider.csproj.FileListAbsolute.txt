@@ -1,0 +1,14 @@
+c:\users\workc\documents\visual studio 2015\Projects\DungeonRaider\DungeonRaider\bin\Debug\DungeonRaider.exe.config
+c:\users\workc\documents\visual studio 2015\Projects\DungeonRaider\DungeonRaider\bin\Debug\DungeonRaider.exe
+c:\users\workc\documents\visual studio 2015\Projects\DungeonRaider\DungeonRaider\bin\Debug\DungeonRaider.pdb
+c:\users\workc\documents\visual studio 2015\Projects\DungeonRaider\DungeonRaider\obj\Debug\DungeonRaider.csprojResolveAssemblyReference.cache
+c:\users\workc\documents\visual studio 2015\Projects\DungeonRaider\DungeonRaider\obj\Debug\MainWindow.g.cs
+c:\users\workc\documents\visual studio 2015\Projects\DungeonRaider\DungeonRaider\obj\Debug\App.g.cs
+c:\users\workc\documents\visual studio 2015\Projects\DungeonRaider\DungeonRaider\obj\Debug\DungeonRaider_MarkupCompile.cache
+c:\users\workc\documents\visual studio 2015\Projects\DungeonRaider\DungeonRaider\obj\Debug\DungeonRaider_MarkupCompile.lref
+c:\users\workc\documents\visual studio 2015\Projects\DungeonRaider\DungeonRaider\obj\Debug\MainWindow.baml
+c:\users\workc\documents\visual studio 2015\Projects\DungeonRaider\DungeonRaider\obj\Debug\DungeonRaider.g.resources
+c:\users\workc\documents\visual studio 2015\Projects\DungeonRaider\DungeonRaider\obj\Debug\DungeonRaider.Properties.Resources.resources
+c:\users\workc\documents\visual studio 2015\Projects\DungeonRaider\DungeonRaider\obj\Debug\DungeonRaider.csproj.GenerateResource.Cache
+c:\users\workc\documents\visual studio 2015\Projects\DungeonRaider\DungeonRaider\obj\Debug\DungeonRaider.exe
+c:\users\workc\documents\visual studio 2015\Projects\DungeonRaider\DungeonRaider\obj\Debug\DungeonRaider.pdb
