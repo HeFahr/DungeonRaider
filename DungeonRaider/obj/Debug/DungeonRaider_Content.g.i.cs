@@ -8,7 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/menubuttons/achievement_dungeon_ulduarraid_archway_01.jpg")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/menubuttons/inv_blacksmith_anvil.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/menubuttons/inv_misc_bag_08.jpg")]
 
 

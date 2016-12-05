@@ -12,3 +12,6 @@ c:\users\workc\documents\visual studio 2015\Projects\DungeonRaider\DungeonRaider
 c:\users\workc\documents\visual studio 2015\Projects\DungeonRaider\DungeonRaider\obj\Debug\DungeonRaider.csproj.GenerateResource.Cache
 c:\users\workc\documents\visual studio 2015\Projects\DungeonRaider\DungeonRaider\obj\Debug\DungeonRaider.exe
 c:\users\workc\documents\visual studio 2015\Projects\DungeonRaider\DungeonRaider\obj\Debug\DungeonRaider.pdb
+C:\Development\DungeonRaider\DungeonRaider\bin\Debug\DungeonRaider.exe.config
+C:\Development\DungeonRaider\DungeonRaider\obj\Debug\DungeonRaider.exe
+C:\Development\DungeonRaider\DungeonRaider\obj\Debug\DungeonRaider.pdb

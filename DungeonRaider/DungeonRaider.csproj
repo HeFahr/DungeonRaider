@@ -95,7 +95,9 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Images\MenuButtons\inv_misc_bag_08.jpg" />
+  </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\MenuButtons\achievement_dungeon_ulduarraid_archway_01.jpg" />
     <Resource Include="Images\MenuButtons\inv_blacksmith_anvil.jpg" />
