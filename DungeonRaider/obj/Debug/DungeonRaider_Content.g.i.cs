@@ -8,6 +8,25 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/menubuttons/inv_misc_bag_08.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/achievement_character_bloodelf_female.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/achievement_character_bloodelf_male.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/achievement_character_draenei_female.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/achievement_character_draenei_male.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/achievement_character_dwarf_female.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/achievement_character_dwarf_male.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/achievement_character_gnome_female.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/achievement_character_gnome_male.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/achievement_character_human_female.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/achievement_character_human_male.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/achievement_character_nightelf_female.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/achievement_character_nightelf_male.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/achievement_character_orc_female.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/achievement_character_orc_male.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/achievement_character_tauren_female.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/achievement_character_tauren_male.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/achievement_character_troll_female.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/achievement_character_troll_male.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/achievement_character_undead_female.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/achievement_character_undead_male.jpg")]
 
 

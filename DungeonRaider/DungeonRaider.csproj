@@ -102,6 +102,43 @@
     <Resource Include="Images\MenuButtons\achievement_dungeon_ulduarraid_archway_01.jpg" />
     <Resource Include="Images\MenuButtons\inv_blacksmith_anvil.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Coins\inv_misc_coin_01.jpg" />
+    <Resource Include="Images\Coins\inv_misc_coin_03.jpg" />
+    <Resource Include="Images\Coins\inv_misc_coin_05.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Races\Banners\inv_misc_tournaments_banner_bloodelf.jpg" />
+    <Resource Include="Images\Races\Banners\inv_misc_tournaments_banner_draenei.jpg" />
+    <Resource Include="Images\Races\Banners\inv_misc_tournaments_banner_dwarf.jpg" />
+    <Resource Include="Images\Races\Banners\inv_misc_tournaments_banner_gnome.jpg" />
+    <Resource Include="Images\Races\Banners\inv_misc_tournaments_banner_human.jpg" />
+    <Resource Include="Images\Races\Banners\inv_misc_tournaments_banner_nightelf.jpg" />
+    <Resource Include="Images\Races\Banners\inv_misc_tournaments_banner_orc.jpg" />
+    <Resource Include="Images\Races\Banners\inv_misc_tournaments_banner_scourge.jpg" />
+    <Resource Include="Images\Races\Banners\inv_misc_tournaments_banner_tauren.jpg" />
+    <Resource Include="Images\Races\Banners\inv_misc_tournaments_banner_troll.jpg" />
+    <Resource Include="Images\Races\Characters\achievement_character_bloodelf_female.jpg" />
+    <Resource Include="Images\Races\Characters\achievement_character_bloodelf_male.jpg" />
+    <Resource Include="Images\Races\Characters\achievement_character_draenei_female.jpg" />
+    <Resource Include="Images\Races\Characters\achievement_character_draenei_male.jpg" />
+    <Resource Include="Images\Races\Characters\achievement_character_dwarf_female.jpg" />
+    <Resource Include="Images\Races\Characters\achievement_character_dwarf_male.jpg" />
+    <Resource Include="Images\Races\Characters\achievement_character_gnome_female.jpg" />
+    <Resource Include="Images\Races\Characters\achievement_character_gnome_male.jpg" />
+    <Resource Include="Images\Races\Characters\achievement_character_human_female.jpg" />
+    <Resource Include="Images\Races\Characters\achievement_character_human_male.jpg" />
+    <Resource Include="Images\Races\Characters\achievement_character_nightelf_female.jpg" />
+    <Resource Include="Images\Races\Characters\achievement_character_nightelf_male.jpg" />
+    <Resource Include="Images\Races\Characters\achievement_character_orc_female.jpg" />
+    <Resource Include="Images\Races\Characters\achievement_character_orc_male.jpg" />
+    <Resource Include="Images\Races\Characters\achievement_character_tauren_female.jpg" />
+    <Resource Include="Images\Races\Characters\achievement_character_tauren_male.jpg" />
+    <Resource Include="Images\Races\Characters\achievement_character_troll_female.jpg" />
+    <Resource Include="Images\Races\Characters\achievement_character_troll_male.jpg" />
+    <Resource Include="Images\Races\Characters\achievement_character_undead_female.jpg" />
+    <Resource Include="Images\Races\Characters\achievement_character_undead_male.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
