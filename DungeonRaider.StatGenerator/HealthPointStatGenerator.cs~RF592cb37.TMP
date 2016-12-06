@@ -1,0 +1,24 @@
+﻿using System;
+
+namespace DungeonRaider.StatGenerator
+{
+    class HealthPointStatGenerator : IStatGenerator
+    {
+        Random
+
+        public HealthPointStatGenerator()
+        {
+
+        }
+
+        public int GenerateHighStat(int itemDegree, RarityLevel rarityLevel)
+        {
+            throw new NotImplementedException();
+        }
+
+        public int GenerateLowStat(int itemDegree, RarityLevel rarityLevel)
+        {
+            throw new NotImplementedException();
+        }
+    }
+}

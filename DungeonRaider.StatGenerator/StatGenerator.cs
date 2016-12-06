@@ -1,7 +1,10 @@
-﻿namespace DungeonRaider.StatGenerator
+﻿using System;
+
+namespace DungeonRaider.StatGenerator
 {
-    abstract public class StatGenerator
+    public interface IStatGenerator
     {
-        
+        int GenerateHighStat(int itemDegree, RarityLevel rarityLevel);
+        int GenerateLowStat(int itemDegree, RarityLevel rarityLevel);
     }
 }
