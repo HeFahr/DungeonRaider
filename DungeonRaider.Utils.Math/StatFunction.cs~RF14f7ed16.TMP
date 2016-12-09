@@ -1,0 +1,24 @@
+﻿namespace DungeonRaider.Utils.Math
+{
+    public class StatFunction
+    {
+        public string StringPresentation { get; private set; } = "f(x) = (Factor * (x + xAddend)) ^ Exponent";
+
+        public double Factor { get; private set; }
+        public int XAddend { get; private set; }
+        public double Exponent { get; private set; }
+
+
+        public StatFunction(double factor, int xAddend, double exponent)
+        {
+            Factor = factor;
+            xAddend = XAddend;
+            Exponent = exponent;
+        }
+
+        public double f(double x)
+        {
+            return (Factor * (x + XAddend)) ^ Exponent;
+        }
+    }
+}

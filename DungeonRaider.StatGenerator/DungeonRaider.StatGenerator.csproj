@@ -40,7 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ItemStatGenerator.cs" />
+    <Compile Include="RarityLevel.cs" />
+    <Compile Include="HealthPointStatGenerator.cs" />
     <Compile Include="StatGenerator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
