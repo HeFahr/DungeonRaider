@@ -139,12 +139,6 @@
     <Resource Include="Images\Races\Characters\achievement_character_undead_female.jpg" />
     <Resource Include="Images\Races\Characters\achievement_character_undead_male.jpg" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\DungeonRaider.Utils.Math\DungeonRaider.Utils.Math.csproj">
-      <Project>{E1A0AB1F-2844-493A-A2C3-5CBBE240163F}</Project>
-      <Name>DungeonRaider.Utils.Math</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

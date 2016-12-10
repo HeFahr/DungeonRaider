@@ -40,10 +40,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="RarityLevel.cs" />
-    <Compile Include="HealthPointStatGenerator.cs" />
-    <Compile Include="StatGenerator.cs" />
+    <Compile Include="Types\RangeStat.cs" />
+    <Compile Include="Types\RarityLevel.cs" />
+    <Compile Include="Generators\StatGenerator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Types\SingleStat.cs" />
+    <Compile Include="Utils\RandomDoubleStepper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DungeonRaider.Utils.Math\DungeonRaider.Utils.Math.csproj">
+      <Project>{e1a0ab1f-2844-493a-a2c3-5cbbe240163f}</Project>
+      <Name>DungeonRaider.Utils.Math</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
