@@ -1,0 +1,5 @@
+C:\Development\DungeonRaider\DungeonRaider.Utils.Math\bin\Debug\DungeonRaider.Utils.Math.dll
+C:\Development\DungeonRaider\DungeonRaider.Utils.Math\bin\Debug\DungeonRaider.Utils.Math.pdb
+C:\Development\DungeonRaider\DungeonRaider.Utils.Math\obj\Debug\DungeonRaider.Utils.Math.csprojResolveAssemblyReference.cache
+C:\Development\DungeonRaider\DungeonRaider.Utils.Math\obj\Debug\DungeonRaider.Utils.Math.dll
+C:\Development\DungeonRaider\DungeonRaider.Utils.Math\obj\Debug\DungeonRaider.Utils.Math.pdb

@@ -26,3 +26,5 @@ C:\Development\DungeonRaider\DungeonRaider\bin\Debug\DungeonRaider.exe
 C:\Development\DungeonRaider\DungeonRaider\bin\Debug\DungeonRaider.pdb
 C:\Development\DungeonRaider\DungeonRaider\obj\Debug\DungeonRaider.Properties.Resources.resources
 C:\Development\DungeonRaider\DungeonRaider\obj\Debug\DungeonRaider.csproj.GenerateResource.Cache
+C:\Development\DungeonRaider\DungeonRaider\bin\Debug\DungeonRaider.Utils.Math.dll
+C:\Development\DungeonRaider\DungeonRaider\bin\Debug\DungeonRaider.Utils.Math.pdb

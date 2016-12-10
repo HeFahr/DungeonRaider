@@ -5,14 +5,14 @@
         public string StringPresentation { get; private set; } = "f(x) = (Factor * (x + xAddend)) ^ Exponent";
 
         public double Factor { get; private set; }
-        public int XAddend { get; private set; }
+        public double XAddend { get; private set; }
         public double Exponent { get; private set; }
 
 
-        public StatFunction(double factor, int xAddend, double exponent)
+        public StatFunction(double factor, double xAddend, double exponent)
         {
             Factor = factor;
-            xAddend = XAddend;
+            XAddend = xAddend;
             Exponent = exponent;
         }
 
