@@ -10,6 +10,15 @@ namespace DungeonRaider.StatGenerator
         public StatFunction LowStatFunction { get; private set; }
         public StatFunction HighStatFunction { get; private set; }
 
+        public StatType Type { get; private set; }
+
+        public StatGenerator(StatFunction lowStatFunction, StatFunction highStatFunction, StatType type)
+        {
+            LowStatFunction = lowStatFunction;
+            HighStatFunction = highStatFunction;
+            Type = type;
+        }
+
         public RangeStat GenerateRangeStat(int itemDegree)
         {
             double lowValue = LowStatFunction.f(itemDegree);
@@ -19,7 +28,7 @@ namespace DungeonRaider.StatGenerator
             double finalHighvalue = finalLowValue + difference;
             double gain = Math.Round(finalLowValue - lowValue, 1);
             int percentage = (int)Math.Round((gain / difference) * 100);
-            return new RangeStat(finalLowValue, finalHighvalue, percentage);
+            return new RangeStat(finalLowValue, finalHighvalue, percentage, Type);
         }
 
         public SingleStat GenerateSingleStat(int itemDegree)
@@ -30,7 +39,7 @@ namespace DungeonRaider.StatGenerator
             double finalValue = RandomDoubleStepper.NextDoubleBeetween(lowValue, highValue, 1);
             double gain = Math.Round(finalValue - lowValue, 1);
             int percentage = (int)Math.Round((gain / difference) * 100);
-            return new SingleStat(finalValue, percentage);
+            return new SingleStat(finalValue, percentage, Type);
         }
     }
 }

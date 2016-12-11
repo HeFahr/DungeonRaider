@@ -1,6 +1,6 @@
-﻿namespace DungeonRaider.StatGenerator
+﻿namespace DungeonRaider.Types
 {
-    public enum RarityLevel
+    public enum RarenessLevel
     {
         Common = 0x0,
         Rare = 0x1,
