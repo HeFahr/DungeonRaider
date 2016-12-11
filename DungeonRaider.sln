@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DungeonRaider.Utils.Math", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DungeonRaider.ItemBuilder", "DungeonRaider.ItemBuilder\DungeonRaider.ItemBuilder.csproj", "{7E1C601A-E6A3-4977-8EB8-992E8ED14572}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DungeonRaider.Types", "DungeonRaider.Types\DungeonRaider.Types.csproj", "{67BB59A1-AF3B-4909-9677-399D2F5F1B81}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{7E1C601A-E6A3-4977-8EB8-992E8ED14572}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E1C601A-E6A3-4977-8EB8-992E8ED14572}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E1C601A-E6A3-4977-8EB8-992E8ED14572}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67BB59A1-AF3B-4909-9677-399D2F5F1B81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67BB59A1-AF3B-4909-9677-399D2F5F1B81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67BB59A1-AF3B-4909-9677-399D2F5F1B81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67BB59A1-AF3B-4909-9677-399D2F5F1B81}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

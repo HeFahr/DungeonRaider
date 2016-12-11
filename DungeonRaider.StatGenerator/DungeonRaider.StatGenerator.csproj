@@ -41,10 +41,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Types\RangeStat.cs" />
-    <Compile Include="Types\RarityLevel.cs" />
     <Compile Include="Generators\StatGenerator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Types\SingleStat.cs" />
+    <Compile Include="Types\Stat.cs" />
+    <Compile Include="Types\StatType.cs" />
     <Compile Include="Utils\RandomDoubleStepper.cs" />
   </ItemGroup>
   <ItemGroup>
