@@ -1,0 +1,5 @@
+C:\Development\DungeonRaider\DungeonRaider.Types\bin\Debug\DungeonRaider.Types.dll
+C:\Development\DungeonRaider\DungeonRaider.Types\bin\Debug\DungeonRaider.Types.pdb
+C:\Development\DungeonRaider\DungeonRaider.Types\obj\Debug\DungeonRaider.Types.csprojResolveAssemblyReference.cache
+C:\Development\DungeonRaider\DungeonRaider.Types\obj\Debug\DungeonRaider.Types.dll
+C:\Development\DungeonRaider\DungeonRaider.Types\obj\Debug\DungeonRaider.Types.pdb

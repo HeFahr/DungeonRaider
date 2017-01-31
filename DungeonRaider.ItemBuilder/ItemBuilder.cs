@@ -1,14 +1,28 @@
 ﻿using DungeonRaider.ItemBuilder.Types;
+using DungeonRaider.StatGenerator;
+using DungeonRaider.StatGenerator.Types;
 using DungeonRaider.Types;
+using DungeonRaider.Utils.Math;
 
 namespace DungeonRaider.ItemBuilder
 {
     public class ItemBuilder
     {
+        public ItemStatGenerator WeaponDamageStatGenerator { get; set; }
+
+        public ItemBuilder()
+        {
+            WeaponDamageStatGenerator = new ItemStatGenerator(
+                new StatFunction(4, 0.4, 1.9),
+                new StatFunction(4, 0.6, 1.9),
+                StatType.Damage
+            );
+        }
+
         public Item BuildWeapon(ItemDegree degree)
         {
             Item item = new Item(RarenessLevel.Common, degree);
-            
+            item.AddStat(WeaponDamageStatGenerator.GenerateRangeStat(1));
             return item;
         }
 
@@ -67,6 +81,5 @@ namespace DungeonRaider.ItemBuilder
 
             return item;
         }
-
     }
 }

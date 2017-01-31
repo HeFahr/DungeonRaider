@@ -102,7 +102,7 @@
                 </Border>
             </Button>
 
-            <Button Grid.Row="2" Grid.Column="2" Style="{StaticResource ImageButton}">
+            <Button Grid.Row="2" Grid.Column="2" Style="{StaticResource ImageButton}" Click="TestButton_Click">
                 <Border Style="{StaticResource IconBorder}">
                     <Image Style="{StaticResource ButtonIcon}"/>
                 </Border>

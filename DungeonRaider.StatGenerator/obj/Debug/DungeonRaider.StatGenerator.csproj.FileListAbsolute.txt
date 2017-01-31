@@ -1,0 +1,7 @@
+C:\Development\DungeonRaider\DungeonRaider.StatGenerator\bin\Debug\DungeonRaider.StatGenerator.dll
+C:\Development\DungeonRaider\DungeonRaider.StatGenerator\bin\Debug\DungeonRaider.StatGenerator.pdb
+C:\Development\DungeonRaider\DungeonRaider.StatGenerator\bin\Debug\DungeonRaider.Utils.Math.dll
+C:\Development\DungeonRaider\DungeonRaider.StatGenerator\bin\Debug\DungeonRaider.Utils.Math.pdb
+C:\Development\DungeonRaider\DungeonRaider.StatGenerator\obj\Debug\DungeonRaider.StatGenerator.csprojResolveAssemblyReference.cache
+C:\Development\DungeonRaider\DungeonRaider.StatGenerator\obj\Debug\DungeonRaider.StatGenerator.dll
+C:\Development\DungeonRaider\DungeonRaider.StatGenerator\obj\Debug\DungeonRaider.StatGenerator.pdb

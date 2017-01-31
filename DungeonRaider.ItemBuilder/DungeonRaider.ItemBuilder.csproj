@@ -54,6 +54,10 @@
       <Project>{67BB59A1-AF3B-4909-9677-399D2F5F1B81}</Project>
       <Name>DungeonRaider.Types</Name>
     </ProjectReference>
+    <ProjectReference Include="..\DungeonRaider.Utils.Math\DungeonRaider.Utils.Math.csproj">
+      <Project>{E1A0AB1F-2844-493A-A2C3-5CBBE240163F}</Project>
+      <Name>DungeonRaider.Utils.Math</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

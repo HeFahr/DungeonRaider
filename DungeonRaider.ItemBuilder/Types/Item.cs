@@ -20,7 +20,8 @@ namespace DungeonRaider.ItemBuilder.Types
         public bool AddStat(Stat stat)
         {
             bool result = false;
-            if (!Stats.FirstOrDefault(s => s.StatType.Equals(stat.StatType)).Equals(default(Stat)))
+            var statsOfType = Stats.Where(s => s.StatType.Equals(stat.StatType));
+            if (statsOfType.Count() == 0)
             {
                 Stats.Add(stat);
                 result = true;

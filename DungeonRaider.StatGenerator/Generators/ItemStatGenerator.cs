@@ -5,14 +5,14 @@ using System;
 
 namespace DungeonRaider.StatGenerator
 {
-    public class StatGenerator
+    public class ItemStatGenerator
     {
         public StatFunction LowStatFunction { get; private set; }
         public StatFunction HighStatFunction { get; private set; }
 
         public StatType Type { get; private set; }
 
-        public StatGenerator(StatFunction lowStatFunction, StatFunction highStatFunction, StatType type)
+        public ItemStatGenerator(StatFunction lowStatFunction, StatFunction highStatFunction, StatType type)
         {
             LowStatFunction = lowStatFunction;
             HighStatFunction = highStatFunction;

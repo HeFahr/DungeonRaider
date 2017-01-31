@@ -41,7 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Types\RangeStat.cs" />
-    <Compile Include="Generators\StatGenerator.cs" />
+    <Compile Include="Generators\ItemStatGenerator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Types\SingleStat.cs" />
     <Compile Include="Types\Stat.cs" />

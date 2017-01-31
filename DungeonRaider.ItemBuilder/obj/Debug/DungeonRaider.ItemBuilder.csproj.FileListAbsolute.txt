@@ -1,0 +1,11 @@
+C:\Development\DungeonRaider\DungeonRaider.ItemBuilder\bin\Debug\DungeonRaider.ItemBuilder.dll
+C:\Development\DungeonRaider\DungeonRaider.ItemBuilder\bin\Debug\DungeonRaider.ItemBuilder.pdb
+C:\Development\DungeonRaider\DungeonRaider.ItemBuilder\bin\Debug\DungeonRaider.StatGenerator.dll
+C:\Development\DungeonRaider\DungeonRaider.ItemBuilder\bin\Debug\DungeonRaider.Types.dll
+C:\Development\DungeonRaider\DungeonRaider.ItemBuilder\bin\Debug\DungeonRaider.Utils.Math.dll
+C:\Development\DungeonRaider\DungeonRaider.ItemBuilder\bin\Debug\DungeonRaider.StatGenerator.pdb
+C:\Development\DungeonRaider\DungeonRaider.ItemBuilder\bin\Debug\DungeonRaider.Types.pdb
+C:\Development\DungeonRaider\DungeonRaider.ItemBuilder\bin\Debug\DungeonRaider.Utils.Math.pdb
+C:\Development\DungeonRaider\DungeonRaider.ItemBuilder\obj\Debug\DungeonRaider.ItemBuilder.csprojResolveAssemblyReference.cache
+C:\Development\DungeonRaider\DungeonRaider.ItemBuilder\obj\Debug\DungeonRaider.ItemBuilder.dll
+C:\Development\DungeonRaider\DungeonRaider.ItemBuilder\obj\Debug\DungeonRaider.ItemBuilder.pdb

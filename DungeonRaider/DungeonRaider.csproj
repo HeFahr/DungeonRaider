@@ -351,6 +351,16 @@
     <Resource Include="Images\Equipment\Weapons\Maces\Legendary\inv_mace_91.jpg" />
     <Resource Include="Images\Equipment\Weapons\Maces\Legendary\inv_mace_92.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DungeonRaider.ItemBuilder\DungeonRaider.ItemBuilder.csproj">
+      <Project>{7E1C601A-E6A3-4977-8EB8-992E8ED14572}</Project>
+      <Name>DungeonRaider.ItemBuilder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DungeonRaider.StatGenerator\DungeonRaider.StatGenerator.csproj">
+      <Project>{97545897-5615-496d-afc8-247e3a50fee8}</Project>
+      <Name>DungeonRaider.StatGenerator</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
